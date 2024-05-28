@@ -25,6 +25,8 @@ def generate(
     tokenizer=None,
 ):
     print(cfg_scale)
+    return cfg_scale
+
     # with torch.no_grad():
     #     if not 0 < strength <= 1:
     #         raise ValueError("strength must be between 0 and 1")
