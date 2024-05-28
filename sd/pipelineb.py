@@ -24,8 +24,8 @@ def generate(
     idle_device=None,
     tokenizer=None,
 ):
-    print(cfg_scale)
-    return cfg_scale
+    print(strength)
+    return strength
 
     # with torch.no_grad():
     #     if not 0 < strength <= 1:
